@@ -1,7 +1,7 @@
 local M = {
   _keyboard = nil,
   _switched = nil,
-  _enabled = true,
+  _enabled = false,
 }
 
 local platform = require "imtoggle.platform"
