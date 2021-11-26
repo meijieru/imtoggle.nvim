@@ -6,7 +6,6 @@ function M.get_keyboard()
   -- from https://github.com/Neur1n/neuims/blob/master/autoload/neuims.vim
   local win = {
     im = "US Keyboard",
-    status = 0,
     keyboards = {
       ["US Keyboard"] = 0x0409,
       ["ZH Keyboard"] = 0x0804,
