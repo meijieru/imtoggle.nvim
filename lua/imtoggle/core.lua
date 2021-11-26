@@ -21,6 +21,7 @@ end
 
 function M.disable()
   M._enabled = false
+  M._switched = false
 end
 
 function M.switch()
