@@ -17,14 +17,14 @@ It enables the plugin by default.
 
 ### Enable
 
-```lua
-lua require("imtoggle.core").enable()
+```vim
+:lua require("imtoggle").enable()
 ```
 
 ### Disable
 
-```lua
-lua require("imtoggle.core").disable()
+```vim
+:lua require("imtoggle").disable()
 ```
 
 ## Acknowledgement

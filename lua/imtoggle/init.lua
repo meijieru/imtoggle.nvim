@@ -17,4 +17,7 @@ function M.setup(config)
   ]]
 end
 
+M.enable = core.enable
+M.disable = core.disable
+
 return M
