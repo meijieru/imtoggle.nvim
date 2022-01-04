@@ -19,5 +19,6 @@ end
 
 M.enable = core.enable
 M.disable = core.disable
+M.get_status = core.get_status
 
 return M

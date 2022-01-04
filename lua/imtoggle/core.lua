@@ -24,6 +24,14 @@ function M.disable()
   M._switched = false
 end
 
+function M.get_status()
+  return {
+    enabled = M._enabled,
+    switched = M._switched,
+    keyboard = M._keyboard,
+  }
+end
+
 function M.switch()
   if not M._enabled then
     return
