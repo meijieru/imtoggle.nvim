@@ -2,8 +2,10 @@ local M = {}
 
 local core = require "imtoggle.core"
 
+local default_setup_opts = { enable = true }
+
 function M.setup(config)
-  config = config or { enable = true }
+  config = vim.tbl_deep_extend("keep", config or {}, default_setup_opts)
   if config.enable then
     core.enable()
   end
